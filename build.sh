@@ -180,3 +180,4 @@ do
     cp $tool $out/$tool-$ARCHITECTURE
 done
 cd -
+cd -
