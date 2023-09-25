@@ -177,7 +177,7 @@ LDFLAGS='-lintl --static' make -j$(nproc) install
 cd /tmp/procps/bin/
 for tool in *
 do
-    cp $tool out/$tool-$ARCHITECTURE
+    cp $tool $out/$tool-$ARCHITECTURE
 done
 cd -
 cd -
